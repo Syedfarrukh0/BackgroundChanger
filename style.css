@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+main {
+  padding: 5vw;
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  main .btnn {
+    width: auto;
+    height: 2.5vw;
+    position: absolute;
+    top: 3vw;
+    right: 5vw; }
+    main .btnn .color-btn {
+      border: 1px solid rgba(0, 0, 0, 0.37);
+      border-radius: 50%;
+      width: 2.5vw;
+      height: 2.5vw;
+      cursor: pointer;
+      display: inline-block; }
+    main .btnn #white {
+      background-color: #ffffff; }
+    main .btnn #violet {
+      background-color: #ee82ee; }
+    main .btnn #red {
+      background-color: #ff0000; }
+    main .btnn #black {
+      background-color: #000000; }
+  main h1 {
+    font-size: 3.5vw;
+    padding: 2vw; }
+  main .pg {
+    width: auto;
+    height: auto; }
+    main .pg .image {
+      width: auto;
+      height: 20vw;
+      margin-bottom: 2vw; }
+      main .pg .image img {
+        width: 100%;
+        height: 100%; }
+    main .pg p {
+      font-size: 1.5vw;
+      text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
